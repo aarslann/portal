@@ -14,6 +14,11 @@
     },
     "minimum-stability": "stable",
     "repositories": [
+
+	{
+            "type": "vcs",
+            "url": "https://github.com/aarslann/portal-sss.git"
+        },
         {
             "type": "vcs",
             "url": "https://github.com/kouosl/portal-base.git"
@@ -44,6 +49,7 @@
         }
     ],
     "require": {
+	
         "php": ">=5.4.0",
         "yiisoft/yii2": "~2.0.6",
         "yiisoft/yii2-bootstrap": "~2.0.0",
@@ -53,13 +59,16 @@
         "kouosl/portal-site": "dev-develop",
         "kouosl/portal-user": "dev-develop",
         "kouosl/portal-menu": "dev-develop",
-        "kouosl/portal-content": "dev-develop"
+        "kouosl/portal-content": "dev-develop",
+		"kouosl/portal-sss": "dev-master"
+
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
         "yiisoft/yii2-gii": "~2.0.0",
         "yiisoft/yii2-faker": "~2.0.0",
         "kouosl/portal-gii": "dev-develop",
+	"kouosl/portal-gii": "dev-master",
         "codeception/base": "^2.2.3",
         "codeception/verify": "~0.3.1"
     },

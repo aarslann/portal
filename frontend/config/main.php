@@ -25,6 +25,9 @@ return [
         'sample' => [
             'class' => 'kouosl\sample\Module'   // here is our v1 modules
         ],
+	'sss' => [
+            'class' => 'kouosl\sss\Module',
+        ]
     ],
     'components' => [
         'request' => [
